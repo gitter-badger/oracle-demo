@@ -1,0 +1,22 @@
+FORGE
+  remote: http://forge.enterprisemodules.com
+  specs:
+    enterprisemodules-easy_type (1.0.0)
+    enterprisemodules-ora_config (2.0.0)
+      enterprisemodules-easy_type (< 1.1.0, >= 1.0.0)
+    enterprisemodules-ora_install (2.0.1)
+      puppetlabs-concat (>= 1.0.0)
+      puppetlabs-stdlib (>= 3.2.0)
+    erwbgy-limits (0.3.1)
+    fiddyspence-sysctl (1.1.0)
+    puppetlabs-concat (1.2.4)
+      puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
+    puppetlabs-stdlib (4.8.0)
+
+DEPENDENCIES
+  enterprisemodules-ora_config (~> 2.0.0)
+  enterprisemodules-ora_install (~> 2.0.0)
+  erwbgy-limits (>= 0)
+  fiddyspence-sysctl (>= 0)
+  puppetlabs-stdlib (>= 0)
+
